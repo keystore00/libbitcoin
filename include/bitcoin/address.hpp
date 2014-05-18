@@ -61,9 +61,9 @@ public:
 #else
     enum
     {
-        pubkey_version = 0x00,
+        pubkey_version = 0x32,
         script_version = 0x05,
-        wif_version = 0x80,
+        wif_version = 0xb2,
         invalid_version = 0xff
     };
 #endif
